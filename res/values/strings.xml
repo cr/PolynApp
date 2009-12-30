@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PolynApp</string>
+    
+<string name="yawn_subtitle">Hacking sleep as you need it</string>
+<string name="yawn_timer_hours">Hours</string><string name="yawn_timer_minutes">Minutes</string><string name="yawn_noise_toggle">Noise</string>
+
+<string name="yawn_silence_toggle">Silence</string><string name="yawn_start_button">Zzzzzzzz!</string>
+
+
+<string name="sleep_title">Zzzzzzzz!</string>
+<string name="sleep_subtitle">Sleeping as you need it</string>
+<string name="sleep_timer_description">Remaining time in dreamland:</string>
+<string name="sleep_awake_button">I\'m awake now</string>
+
+
+<string name="log_title">How was it?</string>
+<string name="log_quality">Overall quality:</string>
+<string name="log_notes">Notes:</string><string name="log_sleep_type">Sleep type</string><string name="log_button_cancel">Forget it</string>
+<string name="log_button_log">Remember</string>
+
+
+<string-array name="log_sleep_types">
+<item>pondering</item>
+<item>meditative</item>
+<item>hallucinating</item>
+<item>light sleep</item>
+<item>deep sleep</item>
+<item>dreaming</item>
+<item>lucid dreaming</item>
+</string-array>
+<string name="settings_title">PolynApp settings</string>
+<string name="settings_toggle_preview">Preview</string><string name="settings_noise_color">Noise color</string>
+<string name="settings_timer_description">Default timer\n(h/min)</string>
+
+<string name="settings_logging">Logging</string>
+
+<string name="settings_noise_color_left">white</string>
+<string name="settings_noise_color_center">pink</string>
+<string name="settings_noise_color_right">brown</string>
+<string name="settings_button_done">Done</string>
+<string name="settings_mute">Mute ringer</string>
+
+<string name="about_title">About PolynApp</string>
+<string name="about_text">PolynApp helps your with your polyphasic sleep schedules. So far, it is only a configurable timer with pink noise generator that wakes you up with biaural water sounds.</string>
+</resources>

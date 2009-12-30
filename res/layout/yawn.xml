@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:layout_height="wrap_content" android:text="@string/yawn_subtitle" 
+		android:gravity="center" android:layout_gravity="center"
+		android:layout_width="fill_parent" android:layout_marginBottom="20px"
+		android:textSize="7pt" android:layout_marginTop="10px"></TextView>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:gravity="center" android:paddingBottom="15px">
+		<TextView android:layout_width="wrap_content" android:text="@string/yawn_timer_hours" 
+			android:layout_height="wrap_content" android:editable="false"
+			android:gravity="center" android:hapticFeedbackEnabled="false"
+			android:paddingRight="10px"></TextView>
+		<TimePicker android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:id="@+id/yawn_timer" android:isScrollContainer="false"></TimePicker>
+		<TextView android:layout_width="wrap_content" android:text="@string/yawn_timer_minutes" 
+			android:layout_height="wrap_content" android:editable="false"
+			android:gravity="center" android:hapticFeedbackEnabled="false"
+			android:paddingLeft="10px"></TextView>
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:gravity="center">
+		<ToggleButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/yawn_noise_toggle"
+			android:text="@string/yawn_noise_toggle" android:textOff="@string/yawn_silence_toggle"
+			android:textOn="@string/yawn_noise_toggle" android:textStyle="bold"
+			android:checked="true" android:gravity="center"
+			android:layout_marginRight="20px" android:saveEnabled="true"></ToggleButton>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/yawn_start_button"
+			android:id="@+id/yawn_start_button" android:textStyle="bold"
+			android:gravity="center" android:textSize="16pt"></Button>
+	</TableRow>
+
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:layout_height="wrap_content" android:text="@string/sleep_subtitle"
+		android:gravity="center" android:layout_gravity="center"
+		android:layout_width="fill_parent" android:textSize="7pt"
+		android:layout_marginTop="10px" android:layout_marginBottom="15px"></TextView>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:text="@string/sleep_timer_description" android:gravity="center"
+		android:paddingRight="8px"></TextView>
+
+	<Chronometer android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:id="@+id/sleep_timer" android:gravity="center"
+		android:textSize="40px" android:height="100px"
+		android:layout_marginBottom="15px"></Chronometer>
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:gravity="center">
+
+			<ToggleButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/sleep_noise_toggle"
+				android:text="@string/yawn_noise_toggle" android:textOff="@string/yawn_silence_toggle"
+				android:textOn="@string/yawn_noise_toggle" android:textStyle="bold"
+				android:checked="true" android:gravity="center" android:saveEnabled="true"
+				android:layout_marginRight="15px"></ToggleButton>
+
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/sleep_awake_button"
+				android:id="@+id/sleep_awake_button" android:cursorVisible="false"
+				android:gravity="center" android:layout_marginRight="15px"
+				android:textStyle="bold" android:textSize="12pt"></Button>
+
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>
+
